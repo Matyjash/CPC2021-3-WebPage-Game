@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!--Dane o stronie-->
+<head>
+    <meta charset="utf-8" />
+    <!--Tytuł-->
+    <title>Bomb defuser</title>
+    <!--Styl-->
+    <link href="styles/style_custom.css" rel="stylesheet" type="text/css" />
+
+    
+
+
+</head>
+<!--Wygląd strony-->
+<body>
+    <!--Nagłówek-->
+    <header>
+        Defuse it!
+    </header>
+
+    <!--Sekcja z bombą i odnośnikami-->
+    <section>
+
+        <!--Górny pasek wyboru strony-->
+        <div class="choice-bar">
+            <!--Przyciski na pasku-->
+            <a class="active" href="index.html">Home page</a>
+            <a href="settings.html">Settings</a>
+            <a href="instruction.html">How to play</a>
+        </div>
+
+
+        <!--Środkowy pasek, oddzielnia wizualnie elementy strony-->
+        <div class="break-bar">
+        </div>
+        <!--Hasło do przepisania-->
+        <div id="password-to-type">
+            PASSWORD:
+        </div>
+
+
+
+        <!--Bomba i jej elementy-->
+        <div class="bomb-container">
+            <!--Obrazek bomby-->
+            <img id="bomb" src="images/bomb.jpeg" />
+            <!--Wpisane hasło-->
+            <div id="password">000000</div>
+            <!--Licznik czasu-->
+            <div id="timer">000</div>
+            <!--Przycisk startu-->
+            <button id="start-button" onclick="Start();">START</button>
+            <!--Przyciski na klawiaturze numerzycznej-->
+            <button class="numbers" id="zero-button" onclick="AddZero();"></button>
+            <button class="numbers" id="one-button" onclick="AddOne();"></button>
+            <button class="numbers" id="two-button" onclick="AddTwo();"></button>
+            <button class="numbers" id="three-button" onclick="AddThree();"></button>
+            <button class="numbers" id="four-button" onclick="AddFour();"></button>
+            <button class="numbers" id="five-button" onclick="AddFive();"></button>
+            <button class="numbers" id="six-button" onclick="AddSix();"></button>
+            <button class="numbers" id="seven-button" onclick="AddSeven();"></button>
+            <button class="numbers" id="eight-button" onclick="AddEight();"></button>
+            <button class="numbers" id="nine-button" onclick="AddNine();"></button>
+            <button class="numbers" id="clear-button" onclick="Clear();"></button>
+            <button class="numbers" id="confirm-button" onclick="Confirm();"></button>
+
+        </div>
+
+    </section>
+    <!--Podłączenie skryptów-->
+    <!--Skrypt z ustawieniami stylów-->
+    <script src="scripts/style_settings.js"></script>
+    <script>Init();</script>
+    <!--Skrypt z działaniem bomby-->
+    <script src="scripts/bomb_script.js"></script>
+    <script>Reset();</script>
+
+</body>
+</html>

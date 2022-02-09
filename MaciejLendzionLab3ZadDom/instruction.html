@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!--Dane o stronie-->
+<head>
+    <meta charset="utf-8" />
+    <!--Tytuł-->
+    <title>Bomb defuser</title>
+    <link href="styles/style_custom.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<!--Wygląd strony-->
+<body>
+    <section>
+        <!--Nagłówek-->
+        <header>
+            Defuse it!
+        </header>
+        <!--Górny pasek wyboru strony-->
+        <div class="choice-bar">
+            <!--Przyciski na pasku-->
+            <a href="index.html">Home page</a>
+            <a href="settings.html">Settings</a>
+            <a class="active" href="instruction.html">How to play</a>
+        </div>
+
+        <!--Pasek oddzielający-->
+        <div class="break-bar"></div>
+
+        <!--Instrukcja-->
+        <div class="description">
+            After START button is clicked a new password will be generated (upon the bomb). Your goal is to write the password on the bomb keyboard and confirme it before the time is up.
+            See settings section to set a difficulty level.
+        </div>
+
+    </section>
+    <!--Podłączenie skryptów-->
+    <!--skrypt z ustawieniami stylu-->
+    <script src="scripts/style_settings.js"></script>
+    <script>Init();</script>
+
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!--Dane o stronie-->
+<head>
+    <meta charset="utf-8" />
+    <title>Bomb defuser</title>
+    <!---Styl-->
+    <link href="styles/style_custom.css" rel="stylesheet" type="text/css" />
+</head>
+<!--Wygląd strony-->
+<body>
+    <!--Nagłówek-->
+    <header>
+        Defuse it!
+    </header>
+    <section>
+        <!--Górny pasek z wyborem stron-->
+        <div class="choice-bar">
+            <!--Przyciski na pasku-->
+            <a href="index.html">Home page</a>
+            <a class="active" href="settings.html">Settings</a>
+            <a href="instruction.html">How to play</a>
+        </div>
+        <!--Pasek oddzielający-->
+        <div class="break-bar"></div>
+        <!--Opis paska-->
+        <div class="description">
+            Difficulty
+        </div>
+        <!--Pasek ustawień trudności-->
+        <div class="choice-bar">
+            <!--Przyciski na pasku-->
+            <a id="easy-button" onclick="SetDifficultyToEasy();">Easy</a>
+            <a id="medium-button" onclick="SetDifficultyToMedium();">Medium</a>
+            <a id="hard-button" onclick="SetDifficultyToHard();">Hard</a>
+        </div>
+        <!--Pasek oddzielający-->
+        <div class="break-bar"></div>
+        <!--Opis paska-->
+        <div class="description">
+            Style
+        </div>
+        <!--Pasek ustawień stylów-->
+        <div class="choice-bar">
+            <!--Przyciski na pasku-->
+            <a id="cutom-style-buttton" onclick="SetStyleToCustom();">Custom</a>
+            <a id="dark-style-button" onclick="SetStyleToDark();">Dark</a>
+            <a id="contrast-style-button" onclick="SetStyleToContrast();">Contrast</a>
+        </div>
+
+    </section>
+    <!--Podłączenie skryptów-->
+    <!--Skrypt z ustawieniami stylu-->
+    <script src="scripts/style_settings.js"></script>
+    <script>Init();</script>
+    <!--Skrypt z ustawieniami poziomu trudności-->
+    <script src="scripts/difficulty_settings.js"></script>
+    <script>InitLevel();</script>
+
+</body>
+</html>

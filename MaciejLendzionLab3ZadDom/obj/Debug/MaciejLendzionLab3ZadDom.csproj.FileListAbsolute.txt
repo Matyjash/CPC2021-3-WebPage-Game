@@ -1,0 +1,4 @@
+C:\Users\Lengom\Documents\GitHub\maciej_lendzion_cpc2021-1\Lab3\Zadanie domowe\MaciejLendzionLab3ZadDom\MaciejLendzionLab3ZadDom\obj\Debug\MaciejLendzionLab3ZadDom.csprojAssemblyReference.cache
+C:\Users\Lengom\Documents\GitHub\maciej_lendzion_cpc2021-1\Lab3\Zadanie domowe\MaciejLendzionLab3ZadDom\MaciejLendzionLab3ZadDom\obj\Debug\MaciejLendzionLab3ZadDom.csproj.CoreCompileInputs.cache
+C:\Users\lengo\Desktop\maciej_lendzion_cpc2021-1-main\maciej_lendzion_cpc2021-1-main\Lab3\Zadanie domowe\MaciejLendzionLab3ZadDom\MaciejLendzionLab3ZadDom\obj\Debug\MaciejLendzionLab3ZadDom.csprojAssemblyReference.cache
+C:\Users\lengo\Desktop\maciej_lendzion_cpc2021-1-main\maciej_lendzion_cpc2021-1-main\Lab3\Zadanie domowe\MaciejLendzionLab3ZadDom\MaciejLendzionLab3ZadDom\obj\Debug\MaciejLendzionLab3ZadDom.csproj.CoreCompileInputs.cache
